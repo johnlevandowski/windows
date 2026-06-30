@@ -15,7 +15,6 @@ Windows Update, Firefox, Passwords, Drivers, Network Drive
 
 * Accounts > Sign-in options > Password > Change 'password'
 * Settings > Privacy & Security > Device Encryption = OFF
-* File Explorer > This PC > Right Click > Show more options > Map network drive (Z) - \\rpi5.lan.johnl.dev\share
 * Settings > Windows Update > Check for Updates / Download Now - reboot - multiple times until no more updates
 * Settings > Windows Update > Advanced Options > Optional Updates - check and install all
 * Firefox - https://www.firefox.com/en-US/
@@ -25,7 +24,7 @@ Drivers
 -------
 
 * AMD - https://www.amd.com/en/support/download/drivers.html
-* Motherboard Audio and LAN drivers - Gigabyte Aorus Elite WIFI7
+* Motherboard Audio, LAN, and WiFi drivers - Gigabyte Aorus Elite WIFI7 - https://www.gigabyte.com/Motherboard/B850-AORUS-ELITE-WIFI7-rev-1x/support
 * Printer - https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=hl2230_us&os=10068
 * Garmin Express and USB Drivers - https://www8.garmin.com/support/collection.jsp?product=010-00447-00
 * Start > Device Manager – verify no unrecognized devices to install drivers for
@@ -35,7 +34,6 @@ Drivers
 Registry Editor
 ---------------
 
-* Copy registry editor files to downloads folder (admin can't update registry from mapped drives)
 * Registry Editor > Import > registrykeysupdate_system.reg
 
 
@@ -68,6 +66,7 @@ Set Drive Letters
 Install Applications
 --------------------
 
+* Right-click applications-system.ps1 > Properties > General > Unblock
 * applications_system.ps1 > Run with PowerShell as Administrator
 * Delete Icons from Desktop and Empty Trash
 
@@ -82,18 +81,29 @@ Create Restore Point
 Set Up Local User Account
 -------------------------
 
-* Remove network drive (Z) from admin account
 * Login as Local User
 * Accounts > Sign-in options > Password > Change 'password'
-* File Explorer > This PC > Right Click > Show more options > Map network drive (Z) - \\rpi5.lan.johnl.dev\share
-* File Explorer > This PC > Right Click > Show more options > Map network drive (Y) - \\rpi5.lan.johnl.dev\john
+* File Explorer > This PC > Right Click > Show more options > Map network drive (Z)
+```
+\\rpi5.lan.johnl.dev\share
+```
+* File Explorer > This PC > Right Click > Show more options > Map network drive (Y)
+```
+\\rpi5.lan.johnl.dev\john
+```
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
 
 
 Install Applications
 --------------------
 
-applications_user.ps1 > Run with PowerShell as Administrator  
+### Microsoft Store
+* Apple Music
+* Apple Devices
+* iCloud
+* HEIF
+* PowerToys
+
 
 ### Games
 * Blizzard - https://download.battle.net/en-us/desktop
@@ -107,19 +117,21 @@ applications_user.ps1 > Run with PowerShell as Administrator
 Delete Icons from Desktop and Empty Trash  
 
 
-Controlled Folder Access
-------------------------
-
-* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = Z:\
-* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = Y:\
-* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = \\rpi5.lan.johnl.dev\share
-* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = \\rpi5.lan.johnl.dev\john
-
-
 User Settings
 -------------
 
+* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = Z:\
+* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = Y:\
+* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = 
+```
+\\rpi5.lan.johnl.dev\share
+```
+* Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder =
+```
+\\rpi5.lan.johnl.dev\john
+```
 * Windows Security > App & browser control > Reputation-based protection settings > Potentially unwanted app blocking = ON (apps and downloads)
+* Settings > System > Display 1&2 > Scale = 125%
 * Settings > Bluetooth & devices > Mouse > Mouse Pointer Speed = 15
 * Settings > Bluetooth & devices > Mouse > Enhance pointer precision = OFF
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
@@ -128,7 +140,6 @@ User Settings
 * Settings > Personalization > Lock Screen > Personalize your lock screen = Picture
 * Settings > Personalization > Lock screen > Screen saver > on resume, display logon screen = ON
 * Settings > Accesibility > Mouse pointer and touch > Mouse pointer style to green and size to 2
-* Terminal > Settings > Startup > Default terminal application = Windows Terminal
 * Task Manager > Startup > Disable Applications as Needed
 * Registry Editor > Import > registrykeysupdate_user.reg
 * Command Prompt
