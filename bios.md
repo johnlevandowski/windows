@@ -10,7 +10,6 @@ BIOS
 * Enable Secure Boot - Windows
 * Enable Trusted Platform Module (TPM) - Windows
 * Disable Compatibility Support Module (CSM) - legacy BIOS compatibility
-
 * Advanced Mode > Tweaker > XMP/EXPO = Profile 1
 * Advanced Mode > Settings > IO Ports > Integrated Graphics = disabled
 * Advanced Mode > Settings > IO Ports > Above 4G Decoding = Enabled
@@ -23,9 +22,12 @@ BIOS
 * Advanced Mode > Tweaks > Advanced CPU Settings > SVM Mode = Enabled (not sure what this is for)
 
 Fan Curves
-| CPU PWM    | 30 | 60 | 100 |
-| CPU Temp   | 70 | 80 |  90 |
-| Front PWM  | 50 | 60 | 100 | Fan 3
-| Front Temp | 70 | 80 |  90 |
-| Rear PWM   | 45 | 60 | 100 | Fan 1
-| Rear Temp  | 70 | 80 |  90 |
+
+| Sensor     |    |    |     |       |
+| ---------- | -- | -- | --- | ----- |
+| CPU PWM    | 30 | 60 | 100 |       |
+| CPU Temp   | 70 | 80 |  90 |       |
+| Front PWM  | 50 | 60 | 100 | Fan 3 |
+| Front Temp | 70 | 80 |  90 |       |
+| Rear PWM   | 45 | 60 | 100 | Fan 1 |
+| Rear Temp  | 70 | 80 |  90 |       |

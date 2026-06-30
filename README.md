@@ -29,7 +29,7 @@ Drivers
 * Printer - https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=hl2230_us&os=10068
 * Garmin Express and USB Drivers - https://www8.garmin.com/support/collection.jsp?product=010-00447-00
 * Start > Device Manager – verify no unrecognized devices to install drivers for
-# * Start > Advanced System Settings > Hardware > Device Installation Settings = No
+* Start > Advanced System Settings > Hardware > Device Installation Settings = No (not sure if this is needed)
 
 
 Registry Editor
@@ -37,8 +37,6 @@ Registry Editor
 
 * Copy registry editor files to downloads folder (admin can't update registry from mapped drives)
 * Registry Editor > Import > registrykeysupdate_system.reg
-* Registry Editor > Import > registrykeysupdate_user.reg
-* Command Prompt > taskkill /f /im explorer.exe & start explorer.exe
 
 
 System Settings
@@ -132,9 +130,11 @@ User Settings
 * Settings > Accesibility > Mouse pointer and touch > Mouse pointer style to green and size to 2
 * Terminal > Settings > Startup > Default terminal application = Windows Terminal
 * Task Manager > Startup > Disable Applications as Needed
-
 * Registry Editor > Import > registrykeysupdate_user.reg
-* Command Prompt > taskkill /f /im explorer.exe & start explorer.exe
+* Command Prompt
+```
+taskkill /f /im explorer.exe & start explorer.exe
+```
 
 
 User Application Settings
