@@ -100,7 +100,9 @@ Install Applications
 ### Microsoft Store
 * Apple Music
 * Apple Devices
+* GIMP
 * iCloud
+* Snipping Tool
 * HEIF
 * PowerToys
 

@@ -7,6 +7,6 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 # Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-choco install 7zip.install gimp gnucash hwinfo.install libreoffice-fresh notepadplusplus.install --yes
+choco install 7zip.install gnucash hwinfo.install libreoffice-fresh notepadplusplus.install --yes
 
 choco install virtualbox --params "/NoDesktopShortcut" --yes
