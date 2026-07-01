@@ -40,7 +40,7 @@ Registry Editor
 System Settings
 ---------------
 
-* Settings > System > Display 1&2 > HDR = ON > SDR content brightness = 30%
+* Settings > System > Display 1 > HDR = ON > SDR content brightness = 30%
 * Settings > System > Display 1&2 > Scale = 125%
 * Settings > System > Display 1&2 > Advanced display > Choose a refresh rate = 144hz
 * Settings > System > Activation > Activate with product key
@@ -63,17 +63,10 @@ Set Drive Letters
 * Games 2TB M2 = G:
 
 
-Install Applications
---------------------
-
-* Right-click applications-system.ps1 > Properties > General > Unblock
-* applications_system.ps1 > Run with PowerShell as Administrator
-* Delete Icons from Desktop and Empty Trash
-
-
 Create Restore Point
 --------------------
 
+* Delete Icons from Desktop and Empty Trash
 * Start > Create a restore point > Select Local Disk > Configure > Max Usage = 10%
 * Start > Create a restore point > Select Local Disk > Create > Description = "Clean Installation" > Create
 
@@ -94,8 +87,57 @@ Set Up Local User Account
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
 
 
+Display Settings
+-------------------
+
+### AOC OSD
+* Game Setting > Overdrive = Medium
+* Luminance > Local Dimming = Medium
+
+
+### AOC Settings
+* Settings > System > Display > HDR = ON > SDR content brightness = 30%
+* Settings > System > Display > HDR Display Calibration = 0,1150,1150,0  
+* Settings > System > Display > Scale = 125%
+* Settings > System > Display > Advanced display > Choose a refresh rate = 180hz
+
+
+### LG OSD
+* Menu > Game Mode = sRGB
+
+
+### LG Settings
+* Settings > System > Display > HDR = OFF
+* Settings > System > Display > Scale = 125%
+* Settings > System > Display > Advanced display > Choose a refresh rate = 144hz
+
+
 Install Applications
 --------------------
+
+### Chocolatey
+
+* PowerShell as Administrator
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+```
+choco install `
+7zip.install `
+gnucash `
+hwinfo.install `
+irfanview `
+libreoffice-fresh `
+notepadplusplus.install `
+--yes
+```
+
+```
+choco install virtualbox --params "/NoDesktopShortcut" --yes
+```
+
 
 ### Microsoft Store
 * Apple Music
@@ -103,6 +145,7 @@ Install Applications
 * GIMP
 * iCloud
 * Snipping Tool
+* Windows HDR Calibration
 * HEIF
 * PowerToys
 
@@ -113,10 +156,14 @@ Install Applications
 * TradeSkillMaster - https://support.tradeskillmaster.com/tsm-desktop-application/how-do-i-set-up-the-tsm-desktop-application
 * Steam - https://store.steampowered.com/about/
 
+
 ### Applications that auto update
 * GitHub Desktop - https://desktop.github.com/download/
 
-Delete Icons from Desktop and Empty Trash  
+
+### Cleanup
+
+* Delete Icons from Desktop and Empty Trash  
 
 
 User Settings
@@ -133,7 +180,6 @@ User Settings
 \\rpi5.lan.johnl.dev\john
 ```
 * Windows Security > App & browser control > Reputation-based protection settings > Potentially unwanted app blocking = ON (apps and downloads)
-* Settings > System > Display 1&2 > Scale = 125%
 * Settings > Bluetooth & devices > Mouse > Mouse Pointer Speed = 15
 * Settings > Bluetooth & devices > Mouse > Enhance pointer precision = OFF
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
@@ -188,6 +234,7 @@ User Application Settings
 * Tools > Options > LibreOffice Calc > Calculate > Allow use of OpenCL = OFF (stop using GPU)
 
 ### Notepad++
+* Settings > Preferences > Dark Mode = Follow Windows
 * Settings > Preferences > Backup > Remember current session for next launch = OFF
 * Settings > Preferences > Misc > rendering mode = GDI (don't use GPU)
 
@@ -199,18 +246,6 @@ First Full Backup
 * Backup Strategy - Daily, 8am, chain of full and 6 incremental backups, keep backups until storage is full
 * Options - backup splitting = do not split
 * May need to change from system user to different user (adminjohn), but seems to work without for now
-
-
-Display Calibration
--------------------
-
-### AOC
-* Game Setting > Overdrive = Medium
-* Luminance > Local Dimming = Medium
-
-Windows HDR Calibration
-
-### LG
 
 
 Schedule Backup Batch File
