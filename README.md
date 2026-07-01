@@ -9,6 +9,14 @@ Boot to Windows Installer USB Drive – F11 (ASRock) F12 (Gigabyte)
 
 Install Windows 11 using autounattend.xml > https://schneegans.de/windows/unattend-generator/  
 
+Allowed bloatware apps:
+* Calculator
+* Microsoft Store
+* Notepad (modern)
+* OpenSSH Client
+* Snipping Tool
+* Windows Terminal
+
 
 First Boot
 ----------
@@ -144,7 +152,6 @@ choco install virtualbox --params "/NoDesktopShortcut" --yes
 * Apple Devices
 * GIMP
 * iCloud
-* Snipping Tool
 * Windows HDR Calibration
 * HEIF
 * PowerToys

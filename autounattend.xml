@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
-	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=en-US&Locale=en-US&Keyboard=00000409&GeoLocation=244&PEMode=Default&WindowsEditionMode=Generic&WindowsEdition=home&ProcessorArchitecture=amd64&ComputerNameMode=Custom&ComputerName=pc-b850&TimeZoneMode=Explicit&TimeZone=Mountain+Standard+Time&UserAccountMode=Unattended&AccountName0=adminjohn&AccountDisplayName0=&AccountPassword0=password&AccountGroup0=Administrators&AccountName1=john&AccountDisplayName1=&AccountPassword1=password&AccountGroup1=Users&AutoLogonMode=Own&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=HiddenSystem&ShowFileExtensions=true&ClassicContextMenu=true&LaunchToThisPC=true&TaskbarSearch=Hide&TaskbarIconsMode=Empty&DisableWidgets=true&LeftTaskbar=true&DisableBingResults=true&StartTilesMode=Default&StartPinsMode=Empty&DisableFastStartup=true&AllowPowerShellScripts=true&DisableLastAccess=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&DisablePointerPrecision=true&CoreIsolationMode=Disabled&EffectsMode=Default&DesktopIconsMode=Default&StartFoldersMode=Default&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Default&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOpenSSHClient=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemovePowerShell2=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSnippingTool=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&AppLockerMode=Skip-->
+	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=en-US&Locale=en-US&Keyboard=00000409&GeoLocation=244&PEMode=Default&WindowsEditionMode=Generic&WindowsEdition=home&ProcessorArchitecture=amd64&ComputerNameMode=Custom&ComputerName=pc-b850&TimeZoneMode=Explicit&TimeZone=Mountain+Standard+Time&UserAccountMode=Unattended&AccountName0=adminjohn&AccountDisplayName0=&AccountPassword0=password&AccountGroup0=Administrators&AccountName1=john&AccountDisplayName1=&AccountPassword1=password&AccountGroup1=Users&AutoLogonMode=Own&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=HiddenSystem&ShowFileExtensions=true&ClassicContextMenu=true&LaunchToThisPC=true&TaskbarSearch=Hide&TaskbarIconsMode=Empty&DisableWidgets=true&LeftTaskbar=true&DisableBingResults=true&StartTilesMode=Default&StartPinsMode=Empty&DisableFastStartup=true&AllowPowerShellScripts=true&DisableLastAccess=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&DisablePointerPrecision=true&CoreIsolationMode=Disabled&EffectsMode=Default&DesktopIconsMode=Default&StartFoldersMode=Default&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Default&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemovePowerShell2=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&AppLockerMode=Skip-->
 	<settings pass="offlineServicing"></settings>
 	<settings pass="windowsPE">
 		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
@@ -156,7 +156,6 @@ $selectors = @(
 	'Microsoft.PowerAutomateDesktop';
 	'MicrosoftCorporationII.QuickAssist';
 	'Microsoft.SkypeApp';
-	'Microsoft.ScreenSketch';
 	'Microsoft.MicrosoftSolitaireCollection';
 	'Microsoft.MicrosoftStickyNotes';
 	'MicrosoftTeams';
@@ -223,11 +222,9 @@ $selectors = @(
 	'Browser.InternetExplorer';
 	'MathRecognizer';
 	'OneCoreUAP.OneSync';
-	'OpenSSH.Client';
 	'Microsoft.Windows.MSPaint';
 	'Microsoft.Windows.PowerShell.ISE';
 	'App.Support.QuickAssist';
-	'Microsoft.Windows.SnippingTool';
 	'Language.Speech';
 	'Language.TextToSpeech';
 	'App.StepsRecorder';
@@ -286,7 +283,6 @@ $selectors = @(
 	'MicrosoftWindowsPowerShellV2Root';
 	'Microsoft-RemoteDesktopConnection';
 	'Recall';
-	'Microsoft-SnippingTool';
 );
 $getCommand = {
   Get-WindowsOptionalFeature -Online | Where-Object -Property 'State' -NotIn -Value @(
