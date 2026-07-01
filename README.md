@@ -203,10 +203,12 @@ User Application Settings
 * Settings > system > Factory Reset = Perform Reset
 * Settings > Display > Adaptive Sync Compatible = Enabled
 
+
 ### Microsoft Edge
 * Settings > System and performance > System > Startup Boost = OFF
 * Settings > System and performance > System > Continue running background extensions ... = OFF
 * Settings > System and performance > System > Use accelerated graphics when available = OFF
+
 
 ### Firefox
 * Add-ons and themes > Bitwarden - Add to Firefox
@@ -214,24 +216,27 @@ User Application Settings
 * Delete Mozilla Firefox folder from Bookmarks Menu
 * Delete Getting Started bookmark from Bookmarks Toolbar
 * Right Click Import Bookmarks > Remove from Toolbar
-* Settings > General > Performance > Use recommended performance settings = OFF
-* Settings > General > Performance > Use hardware acceleration when available = OFF
-* Settings > Home > Homepage and new windows = Blank Page
-* Settings > Home > New tabs = Blank Page
-* Settings > Privacy & Security > Ask to save passwords = OFF
-* Settings > Privacy & Security > Save and autofill payment info = OFF
-* Settings > Privacy & Security > Save and autofill addresses = OFF
+* Settings > Account and sync > Sign in to sync
+* Settings > Home and startup > New windows = Blank Page
+* Settings > Home and startup > New tabs = Blank Page
 * Settings > Privacy & Security > Enable DNS over HTTPS using = OFF
-* Settings > Sync > Sign in to sync
+* Settings > Passwords and autofill > Ask to save passwords = OFF
+* Settings > Passwords and autofill > Save and autofill payment info = OFF
+* Settings > Passwords and autofill > Save and autofill addresses = OFF
+* Settings > Tabs and browsing > Performance > Use recommended performance settings = OFF
+* Settings > Tabs and browsing > Performance > Use hardware acceleration when available = OFF
 * about:config - browser.bookmarks.autoExportHTML = TRUE
+
 
 ### Bitwarden
 * Settings > Options > Clear clipboard = 5 minutes
+
 
 ### LibreOffice
 * Tools > Options > LibreOffice > View > Force Skia software rendering (stop using GPU)
 * Tools > Options > LibreOffice > Paths > My Documents = Z: drive
 * Tools > Options > LibreOffice Calc > Calculate > Allow use of OpenCL = OFF (stop using GPU)
+
 
 ### Notepad++
 * Settings > Preferences > Dark Mode = Follow Windows
