@@ -9,9 +9,9 @@ Boot to Windows Installer USB Drive – F11 (ASRock) F12 (Gigabyte)
 
 Install Windows 11 using autounattend.xml > https://schneegans.de/windows/unattend-generator/  
 
- 
-Windows Update, Firefox, Passwords, Drivers, Network Drive
-----------------------------------------------------------
+
+First Boot
+----------
 
 * Accounts > Sign-in options > Password > Change 'password'
 * Settings > Privacy & Security > Device Encryption = OFF
@@ -58,7 +58,7 @@ System Settings
 Set Drive Letters
 -----------------
 
-* Right Click Start Menu > Disk Management > Right Click drive partition > Change Drive Letter and Paths
+* Computer Management (as Administrator) > Storage > Disk Management > Right Click drive partition > Change Drive Letter and Paths
 * Backup 2TB Hard Drive = D:
 * Games 2TB M2 = G:
 
