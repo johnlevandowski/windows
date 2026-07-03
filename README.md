@@ -152,9 +152,8 @@ choco install virtualbox --params "/NoDesktopShortcut" --yes
 * Apple Devices
 * GIMP
 * iCloud
+* Microsoft PowerToys
 * Windows HDR Calibration
-* HEIF
-* PowerToys
 
 
 ### Games
