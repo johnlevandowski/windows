@@ -28,16 +28,6 @@ First Boot
 * Firefox - https://www.firefox.com/en-US/
 
 
-Windows-Linux dual boot time zone fix
--------------------------------------
-
-PowerShell as Administrator
-
-```
-reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1 /f
-```
-
-
 Drivers
 -------
 
