@@ -75,7 +75,7 @@ Create Restore Point
 --------------------
 
 * Delete Icons from Desktop and Empty Trash
-* Start > Create a restore point > Select Local Disk > Configure > Max Usage = 10%
+* Settings > System > Point-in-time Restore > View or edit > Restore point disk usage > Max usage = 10%
 * Start > Create a restore point > Select Local Disk > Create > Description = "Clean Installation" > Create
 
 
@@ -139,6 +139,7 @@ hwinfo.install `
 irfanview `
 libreoffice-fresh `
 notepadplusplus.install `
+treesizefree `
 --yes
 ```
 
@@ -189,12 +190,18 @@ User Settings
 * Settings > Bluetooth & devices > Mouse > Mouse Pointer Speed = 15
 * Settings > Bluetooth & devices > Mouse > Enhance pointer precision = OFF
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
+* Settings > Personalization > Background = 4000 x 2560 span
 * Settings > Personalization > Dynamic Lighting > Use Dynamic Lighting on my device = OFF
 * Settings > Personalization > Dynamic Lighting > Compatible apps in the foreground always control dynamic lighting = OFF
 * Settings > Personalization > Lock Screen > Personalize your lock screen = Picture
 * Settings > Personalization > Lock screen > Screen saver > on resume, display logon screen = ON
 * Settings > Accesibility > Mouse pointer and touch > Mouse pointer style to green and size to 2
 * Task Manager > Startup > Disable Applications as Needed
+
+
+Registry Editor
+---------------
+
 * Registry Editor > Import > registrykeysupdate_user.reg
 * Command Prompt
 ```
