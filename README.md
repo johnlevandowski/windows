@@ -143,10 +143,6 @@ treesizefree `
 --yes
 ```
 
-```
-choco install virtualbox --params "/NoDesktopShortcut" --yes
-```
-
 
 ### Microsoft Store
 * Apple Music

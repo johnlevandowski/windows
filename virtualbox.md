@@ -1,6 +1,11 @@
 VirtualBox Virtual Machine
 ==========================
 
+```
+choco install virtualbox --params "/NoDesktopShortcut" --yes
+```
+
+
 Settings
 --------
 
