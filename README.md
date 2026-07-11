@@ -183,15 +183,9 @@ User Settings
 \\rpi5.lan.johnl.dev\john
 ```
 * Windows Security > App & browser control > Reputation-based protection settings > Potentially unwanted app blocking = ON (apps and downloads)
-* Settings > Bluetooth & devices > Mouse > Mouse Pointer Speed = 15
-* Settings > Bluetooth & devices > Mouse > Enhance pointer precision = OFF
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
 * Settings > Personalization > Background = 4000 x 2560 span
-* Settings > Personalization > Dynamic Lighting > Use Dynamic Lighting on my device = OFF
-* Settings > Personalization > Dynamic Lighting > Compatible apps in the foreground always control dynamic lighting = OFF
 * Settings > Personalization > Lock Screen > Personalize your lock screen = Picture
-* Settings > Personalization > Lock screen > Screen saver > on resume, display logon screen = ON
-* Settings > Accesibility > Mouse pointer and touch > Mouse pointer style to green and size to 2
 * Task Manager > Startup > Disable Applications as Needed
 
 
