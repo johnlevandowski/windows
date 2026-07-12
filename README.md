@@ -207,10 +207,8 @@ User Application Settings
 * Settings > Display > Adaptive Sync Compatible = Enabled
 
 
-### Microsoft Edge
-* Settings > System and performance > System > Startup Boost = OFF
-* Settings > System and performance > System > Continue running background extensions ... = OFF
-* Settings > System and performance > System > Use accelerated graphics when available = OFF
+### Bitwarden
+* Settings > Options > Clear clipboard = 5 minutes
 
 
 ### Firefox
@@ -231,20 +229,26 @@ User Application Settings
 * about:config - browser.bookmarks.autoExportHTML = TRUE
 
 
-### Bitwarden
-* Settings > Options > Clear clipboard = 5 minutes
-
-
 ### LibreOffice
 * Tools > Options > LibreOffice > View > Force Skia software rendering (stop using GPU)
 * Tools > Options > LibreOffice > Paths > My Documents = Z: drive
 * Tools > Options > LibreOffice Calc > Calculate > Allow use of OpenCL = OFF (stop using GPU)
 
 
+### Microsoft Edge
+* Settings > System and performance > System > Startup Boost = OFF
+* Settings > System and performance > System > Continue running background extensions ... = OFF
+* Settings > System and performance > System > Use accelerated graphics when available = OFF
+
+
 ### Notepad++
 * Settings > Preferences > Dark Mode = Follow Windows
 * Settings > Preferences > Backup > Remember current session for next launch = OFF
 * Settings > Preferences > Misc > rendering mode = GDI (don't use GPU)
+
+
+### Windows Terminal
+* Settings > Startup > Launch size = 140x40
 
 
 First Full Backup
