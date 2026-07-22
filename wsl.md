@@ -26,7 +26,7 @@ Podman
 ```
 wsl --install --distribution FedoraLinux-44 --name FedoraLinux-44-podman
 sudo dnf upgrade
-sudo dnf install podman podman-compose git micro
+sudo dnf install podman podman-compose podman-docker git micro
 podman run --name hello hello
 podman container rm hello
 ```

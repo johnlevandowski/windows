@@ -158,6 +158,7 @@ treesizefree `
 * Curseforge Standalone (change TSM to ignored) - https://www.curseforge.com/download/app
 * TradeSkillMaster - https://support.tradeskillmaster.com/tsm-desktop-application/how-do-i-set-up-the-tsm-desktop-application
 * Steam - https://store.steampowered.com/about/
+* DirectX End-User Runtimes (June 2010) - https://www.microsoft.com/en-us/download/details.aspx?id=8109 - needed for Batman: Arkham Asylum
 
 
 ### Applications that auto update
@@ -248,7 +249,7 @@ User Application Settings
 
 
 ### Windows Terminal
-* Settings > Startup > Launch size = 140x40
+* Settings > Startup > Launch size = 170x40
 
 
 First Full Backup
