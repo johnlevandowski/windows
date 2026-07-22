@@ -1,6 +1,11 @@
 ﻿Windows Installation
 ====================
 
+* [PC Building Notes](pc_building_notes.md)
+* [BIOS Settings](bios.md)
+* [Windows ISO download](windows_ISO.md)
+* [Ventoy setup](ventoy.md)
+
 Only connect main monitor during install  
 
 Disconnect extra drives (SATA, USB) or windows may install EFI boot loader on wrong drive  
@@ -42,7 +47,7 @@ Drivers
 Registry Editor
 ---------------
 
-* Registry Editor > Import > registrykeysupdate_system.reg
+* Registry Editor > Import > [registrykeysupdate_system.reg](registrykeysupdate_system.reg)
 
 
 System Settings
@@ -193,7 +198,7 @@ User Settings
 Registry Editor
 ---------------
 
-* Registry Editor > Import > registrykeysupdate_user.reg
+* Registry Editor > Import > [registrykeysupdate_user.reg](registrykeysupdate_user.reg)
 * Command Prompt
 ```
 taskkill /f /im explorer.exe & start explorer.exe
