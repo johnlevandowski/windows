@@ -139,6 +139,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 choco install `
 7zip.install `
+etcher `
 gnucash `
 hwinfo.install `
 irfanview `

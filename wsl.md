@@ -26,27 +26,23 @@ Podman
 ```
 wsl --install --distribution FedoraLinux-44 --name FedoraLinux-44-podman
 sudo dnf upgrade
-sudo dnf install podman podman-compose podman-docker git micro
+sudo dnf install \
+cockpit-podman \
+git \
+micro \
+podman \
+podman-compose \
+podman-docker \
+podlet
 podman run --name hello hello
 podman container rm hello
-```
-
-
-Docker/podman unbound-build testing
------------------------------------
-
-```
-git clone https://github.com/johnlevandowski/Raspberry-Pi-Server.git
-cd Raspberry-Pi-Server/docker/unbound-build/
-cp sample.env .env
-dig @127.0.0.1 johnl.dev -p 5335
 ```
 
 
 Reminders
 ---------
 
-* Always "sudo shutdown now" a wsl distribution insteaed of just "exit" to preevent journald log file corruption
+* Always "sudo shutdown now" wsl distribution instead of just "exit" to prevent journald log file corruption
 
 
 WSLg
