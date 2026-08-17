@@ -10,7 +10,7 @@ Only connect main monitor during install
 
 Disconnect extra drives (SATA, USB) or windows may install EFI boot loader on wrong drive  
 
-Boot to Windows Installer USB Drive – F11 (ASRock) F12 (Gigabyte)  
+Boot to Windows Installer USB Drive – F7 (Geekom), F11 (ASRock), F12 (Gigabyte)  
 
 Install Windows 11 using autounattend.xml > https://schneegans.de/windows/unattend-generator/  
 
@@ -23,8 +23,7 @@ Allowed bloatware apps:
 * Windows Terminal
 
 
-First Boot
-----------
+## First Boot
 
 * Accounts > Sign-in options > Password > Change 'password'
 * Settings > Privacy & Security > Device Encryption = OFF
@@ -33,8 +32,7 @@ First Boot
 * Firefox - https://www.firefox.com/en-US/
 
 
-Drivers
--------
+## Drivers
 
 * AMD - https://www.amd.com/en/support/download/drivers.html
 * Motherboard Audio, LAN, and WiFi drivers - Gigabyte Aorus Elite WIFI7 - https://www.gigabyte.com/Motherboard/B850-AORUS-ELITE-WIFI7-rev-1x/support
@@ -44,14 +42,12 @@ Drivers
 * Start > Advanced System Settings > Hardware > Device Installation Settings = No (not sure if this is needed)
 
 
-Registry Editor
----------------
+## Registry Editor
 
 * Registry Editor > Import > [registrykeysupdate_system.reg](registrykeysupdate_system.reg)
 
 
-System Settings
----------------
+## System Settings
 
 * Settings > System > Display 1 > HDR = ON > SDR content brightness = 30%
 * Settings > System > Display 1&2 > Scale = 125%
@@ -68,24 +64,21 @@ System Settings
 * Task Manager > Startup > Disable Applications as Needed
 
 
-Set Drive Letters
------------------
+## Set Drive Letters
 
 * Computer Management (as Administrator) > Storage > Disk Management > Right Click drive partition > Change Drive Letter and Paths
 * Backup 2TB Hard Drive = D:
 * Games 2TB M2 = G:
 
 
-Create Restore Point
---------------------
+## Create Restore Point
 
 * Delete Icons from Desktop and Empty Trash
 * Settings > System > Point-in-time Restore > View or edit > Restore point disk usage > Max usage = 10%
 * Start > Create a restore point > Select Local Disk > Create > Description = "Clean Installation" > Create
 
 
-Set Up Local User Account
--------------------------
+## Set Up Local User Account
 
 * Login as Local User
 * Accounts > Sign-in options > Password > Change 'password'
@@ -100,13 +93,11 @@ Set Up Local User Account
 * Settings > Apps > Installed Apps > Uninstall unwanted apps
 
 
-Display Settings
--------------------
+## Display Settings
 
 ### AOC OSD
 * Game Setting > Overdrive = Medium
 * Luminance > Local Dimming = Medium
-
 
 ### AOC Settings
 * Settings > System > Display > HDR = ON > SDR content brightness = 30%
@@ -114,10 +105,8 @@ Display Settings
 * Settings > System > Display > Scale = 125%
 * Settings > System > Display > Advanced display > Choose a refresh rate = 180hz
 
-
 ### LG OSD
 * Menu > Game Mode = sRGB
-
 
 ### LG Settings
 * Settings > System > Display > HDR = OFF
@@ -125,11 +114,9 @@ Display Settings
 * Settings > System > Display > Advanced display > Choose a refresh rate = 144hz
 
 
-Install Applications
---------------------
+## Install Applications
 
 ### Chocolatey
-
 * PowerShell as Administrator
 
 ```
@@ -143,12 +130,10 @@ etcher `
 gnucash `
 hwinfo.install `
 irfanview `
-libreoffice-fresh `
 notepadplusplus.install `
 treesizefree `
 --yes
 ```
-
 
 ### Microsoft Store
 * Apple Music
@@ -158,7 +143,6 @@ treesizefree `
 * Microsoft PowerToys
 * Windows HDR Calibration
 
-
 ### Games
 * Blizzard - https://download.battle.net/en-us/desktop
 * Curseforge Standalone (change TSM to ignored) - https://www.curseforge.com/download/app
@@ -166,18 +150,15 @@ treesizefree `
 * Steam - https://store.steampowered.com/about/
 * DirectX End-User Runtimes (June 2010) - https://www.microsoft.com/en-us/download/details.aspx?id=8109 - needed for Batman: Arkham Asylum
 
-
 ### Applications that auto update
 * GitHub Desktop - https://desktop.github.com/download/
-
+* LibreOffice - https://www.libreoffice.org/download/
 
 ### Cleanup
-
 * Delete Icons from Desktop and Empty Trash  
 
 
-User Settings
--------------
+## User Settings
 
 * Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = Z:\
 * Windows Security > Virus & threat protection > Manage ransomware protection > Protected Folders > Add a protected folder = Y:\
@@ -196,8 +177,7 @@ User Settings
 * Task Manager > Startup > Disable Applications as Needed
 
 
-Registry Editor
----------------
+## Registry Editor
 
 * Registry Editor > Import > [registrykeysupdate_user.reg](registrykeysupdate_user.reg)
 * Command Prompt
@@ -206,17 +186,14 @@ taskkill /f /im explorer.exe & start explorer.exe
 ```
 
 
-User Application Settings
---------------------
+## User Application Settings
 
 ### AMD Adrenaline
 * Settings > system > Factory Reset = Perform Reset
 * Settings > Display > Adaptive Sync Compatible = Enabled
 
-
 ### Bitwarden
 * Settings > Options > Clear clipboard = 5 minutes
-
 
 ### Firefox
 * Add-ons and themes > Bitwarden - Add to Firefox
@@ -235,31 +212,30 @@ User Application Settings
 * Settings > Tabs and browsing > Performance > Use hardware acceleration when available = OFF
 * about:config - browser.bookmarks.autoExportHTML = TRUE
 
-
 ### LibreOffice
 * Tools > Options > LibreOffice > View > Force Skia software rendering (stop using GPU)
 * Tools > Options > LibreOffice > Paths > My Documents = Z: drive
 * Tools > Options > LibreOffice Calc > Calculate > Allow use of OpenCL = OFF (stop using GPU)
-
 
 ### Microsoft Edge
 * Settings > System and performance > System > Startup Boost = OFF
 * Settings > System and performance > System > Continue running background extensions ... = OFF
 * Settings > System and performance > System > Use accelerated graphics when available = OFF
 
-
 ### Notepad++
 * Settings > Preferences > Dark Mode = Follow Windows
 * Settings > Preferences > Backup > Remember current session for next launch = OFF
 * Settings > Preferences > Misc > rendering mode = GDI (don't use GPU)
 
+#### Custom language files for markdown
+* Create "userDefineLangs" directory in C:\Users\john\AppData\Roaming\Notepad++
+* Download markdown.zenburn* UDL files from https://github.com/Edditoria/markdown-plus-plus/tree/master/udl into above directory
 
 ### Windows Terminal
 * Settings > Startup > Launch size = 170x40
 
 
-First Full Backup
------------------
+## First Full Backup
 
 * https://www.paragon-software.com/free/br-free/# - gmail for activation
 * Backup Strategy - Daily, 8am, chain of full and 6 incremental backups, keep backups until storage is full
@@ -267,8 +243,7 @@ First Full Backup
 * May need to change from system user to different user (adminjohn), but seems to work without for now
 
 
-Schedule Backup Batch File
---------------------------
+## Schedule Backup Batch File
 
 * Login Regular User
 * Task Scheduler - schedule task to run at 1-2 minutes before 8am paragon backup so computer wakes from sleep - max 2 minutes due to System unattended sleep timeout
