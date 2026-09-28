@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
-	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=en-US&Locale=en-US&Keyboard=00000409&GeoLocation=244&PEMode=Default&WindowsEditionMode=Generic&WindowsEdition=home&ProcessorArchitecture=amd64&ComputerNameMode=Custom&ComputerName=pc-b850&TimeZoneMode=Explicit&TimeZone=Mountain+Standard+Time&UserAccountMode=Unattended&AccountName0=adminjohn&AccountDisplayName0=&AccountPassword0=password&AccountGroup0=Administrators&AccountName1=john&AccountDisplayName1=&AccountPassword1=password&AccountGroup1=Users&AutoLogonMode=Own&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=HiddenSystem&ShowFileExtensions=true&ClassicContextMenu=true&LaunchToThisPC=true&TaskbarSearch=Hide&TaskbarIconsMode=Empty&DisableWidgets=true&LeftTaskbar=true&DisableBingResults=true&StartTilesMode=Default&StartPinsMode=Empty&DisableFastStartup=true&AllowPowerShellScripts=true&DisableLastAccess=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&DisablePointerPrecision=true&CoreIsolationMode=Disabled&EffectsMode=Default&DesktopIconsMode=Default&StartFoldersMode=Default&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Default&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemovePowerShell2=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&AppLockerMode=Skip-->
+	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=en-US&Locale=en-US&Keyboard=00000409&GeoLocation=244&PEMode=Default&WindowsEditionMode=Generic&WindowsEdition=home&ProcessorArchitecture=amd64&ComputerNameMode=Custom&ComputerName=pc-b850&TimeZoneMode=Explicit&TimeZone=Mountain+Standard+Time&UserAccountMode=Unattended&AccountName0=adminjohn&AccountDisplayName0=&AccountPassword0=password&AccountGroup0=Administrators&AccountName1=john&AccountDisplayName1=&AccountPassword1=password&AccountGroup1=Users&AutoLogonMode=Own&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=HiddenSystem&ShowFileExtensions=true&ClassicContextMenu=true&LaunchToThisPC=true&TaskbarSearch=Hide&TaskbarIconsMode=Empty&DisableWidgets=true&LeftTaskbar=true&DisableBingResults=true&StartTilesMode=Default&StartPinsMode=Empty&DisableFastStartup=true&AllowPowerShellScripts=true&DisableLastAccess=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&DisablePointerPrecision=true&EffectsMode=Default&DesktopIconsMode=Default&StartFoldersMode=Default&CoreIsolationMode=Enabled&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Default&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemovePowerShell2=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&AppLockerMode=Skip-->
 	<settings pass="offlineServicing"></settings>
 	<settings pass="windowsPE">
 		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
@@ -106,8 +106,8 @@
 	<Extensions xmlns="https://schneegans.de/windows/unattend-generator/">
 		<Build>
 			<Commit>
-				<Hash>3de37dc6bc9bb1f63aeac7aa137c84c1b30b3b28</Hash>
-				<GitHubUrl>https://github.com/cschneegans/unattend-generator/commit/3de37dc6bc9bb1f63aeac7aa137c84c1b30b3b28</GitHubUrl>
+				<Hash>538f930aeea9c3d51fdd0b4822e2d076fef999e8</Hash>
+				<GitHubUrl>https://github.com/cschneegans/unattend-generator/commit/538f930aeea9c3d51fdd0b4822e2d076fef999e8</GitHubUrl>
 			</Commit>
 		</Build>
 		<ExtractScript>
@@ -127,7 +127,7 @@ foreach( $file in $Document.unattend.Extensions.File ) {
     [System.IO.File]::WriteAllBytes( $path, $bytes );
 }
 		</ExtractScript>
-		<File path="C:\Windows\Setup\Scripts\RemovePackages.ps1">
+		<File path="C:\Windows\Setup\Scripts\RemovePackage.ps1">
 $selectors = @(
 	'Microsoft.Microsoft3DViewer';
 	'Microsoft.BingSearch';
@@ -192,32 +192,27 @@ $removeCommand = {
   }
 };
 $type = 'Package';
-$logfile = 'C:\Windows\Setup\Scripts\RemovePackages.log';
-&amp; {
-	$installed = &amp; $getCommand;
-	foreach( $selector in $selectors ) {
-		$result = [ordered] @{
-			Selector = $selector;
-		};
-		$found = $installed | Where-Object -FilterScript $filterCommand;
-		if( $found ) {
-			$result.Output = $found | &amp; $removeCommand;
-			if( $? ) {
-				$result.Message = "$type removed.";
-			} else {
-				$result.Message = "$type not removed.";
-				$result.Error = $Error[0];
-			}
+$installed = &amp; $getCommand;
+foreach( $selector in $selectors ) {
+	$result = [ordered] @{
+		Selector = $selector;
+	};
+	if( $found = $installed | Where-Object -FilterScript $filterCommand ) {
+		$result.Output = $found | &amp; $removeCommand;
+		if( $? ) {
+			$result.Message = "${type} removed.";
 		} else {
-			$result.Message = "$type not installed.";
+			$result.Message = "${type} not removed.";
+			$result.Error = $Error[0];
 		}
-		$result | ConvertTo-Json -Depth 3 -Compress;
+	} else {
+		$result.Message = "${type} not installed.";
 	}
-} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; $logfile;
+	$result | ConvertTo-Json -Depth 3 -Compress;
+}
 		</File>
-		<File path="C:\Windows\Setup\Scripts\RemoveCapabilities.ps1">
+		<File path="C:\Windows\Setup\Scripts\RemoveCapability.ps1">
 $selectors = @(
-	'Print.Fax.Scan';
 	'Language.Handwriting';
 	'Browser.InternetExplorer';
 	'MathRecognizer';
@@ -254,30 +249,26 @@ $removeCommand = {
   }
 };
 $type = 'Capability';
-$logfile = 'C:\Windows\Setup\Scripts\RemoveCapabilities.log';
-&amp; {
-	$installed = &amp; $getCommand;
-	foreach( $selector in $selectors ) {
-		$result = [ordered] @{
-			Selector = $selector;
-		};
-		$found = $installed | Where-Object -FilterScript $filterCommand;
-		if( $found ) {
-			$result.Output = $found | &amp; $removeCommand;
-			if( $? ) {
-				$result.Message = "$type removed.";
-			} else {
-				$result.Message = "$type not removed.";
-				$result.Error = $Error[0];
-			}
+$installed = &amp; $getCommand;
+foreach( $selector in $selectors ) {
+	$result = [ordered] @{
+		Selector = $selector;
+	};
+	if( $found = $installed | Where-Object -FilterScript $filterCommand ) {
+		$result.Output = $found | &amp; $removeCommand;
+		if( $? ) {
+			$result.Message = "${type} removed.";
 		} else {
-			$result.Message = "$type not installed.";
+			$result.Message = "${type} not removed.";
+			$result.Error = $Error[0];
 		}
-		$result | ConvertTo-Json -Depth 3 -Compress;
+	} else {
+		$result.Message = "${type} not installed.";
 	}
-} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; $logfile;
+	$result | ConvertTo-Json -Depth 3 -Compress;
+}
 		</File>
-		<File path="C:\Windows\Setup\Scripts\RemoveFeatures.ps1">
+		<File path="C:\Windows\Setup\Scripts\RemoveFeature.ps1">
 $selectors = @(
 	'MediaPlayback';
 	'MicrosoftWindowsPowerShellV2Root';
@@ -304,28 +295,24 @@ $removeCommand = {
   }
 };
 $type = 'Feature';
-$logfile = 'C:\Windows\Setup\Scripts\RemoveFeatures.log';
-&amp; {
-	$installed = &amp; $getCommand;
-	foreach( $selector in $selectors ) {
-		$result = [ordered] @{
-			Selector = $selector;
-		};
-		$found = $installed | Where-Object -FilterScript $filterCommand;
-		if( $found ) {
-			$result.Output = $found | &amp; $removeCommand;
-			if( $? ) {
-				$result.Message = "$type removed.";
-			} else {
-				$result.Message = "$type not removed.";
-				$result.Error = $Error[0];
-			}
+$installed = &amp; $getCommand;
+foreach( $selector in $selectors ) {
+	$result = [ordered] @{
+		Selector = $selector;
+	};
+	if( $found = $installed | Where-Object -FilterScript $filterCommand ) {
+		$result.Output = $found | &amp; $removeCommand;
+		if( $? ) {
+			$result.Message = "${type} removed.";
 		} else {
-			$result.Message = "$type not installed.";
+			$result.Message = "${type} not removed.";
+			$result.Error = $Error[0];
 		}
-		$result | ConvertTo-Json -Depth 3 -Compress;
+	} else {
+		$result.Message = "${type} not installed.";
 	}
-} *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; $logfile;
+	$result | ConvertTo-Json -Depth 3 -Compress;
+}
 		</File>
 		<File path="C:\Windows\Setup\Scripts\TaskbarLayoutModification.xml">
 &lt;LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout" Version="1"&gt;
@@ -464,7 +451,11 @@ $scripts = @(
 		Remove-Item -LiteralPath 'Registry::HKLM\Software\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\DevHomeUpdate' -Force -ErrorAction 'SilentlyContinue';
 	};
 	{
-		Remove-Item -LiteralPath 'C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk', 'C:\Windows\System32\OneDriveSetup.exe', 'C:\Windows\SysWOW64\OneDriveSetup.exe' -ErrorAction 'Continue';
+		@(
+		  'C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk';
+		  'C:\Windows\System32\OneDriveSetup.exe';
+		  'C:\Windows\SysWOW64\OneDriveSetup.exe';
+		) | Where-Object -FilterScript { [System.IO.File]::Exists( $_ ); } | Remove-Item -Verbose -ErrorAction 'Continue';
 	};
 	{
 		Remove-Item -LiteralPath 'Registry::HKLM\Software\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\OutlookUpdate' -Force -ErrorAction 'SilentlyContinue';
@@ -473,13 +464,13 @@ $scripts = @(
 		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Communications" /v ConfigureChatAutoInstall /t REG_DWORD /d 0 /f;
 	};
 	{
-		&amp; 'C:\Windows\Setup\Scripts\RemovePackages.ps1';
+		&amp; 'C:\Windows\Setup\Scripts\RemovePackage.ps1';
 	};
 	{
-		&amp; 'C:\Windows\Setup\Scripts\RemoveCapabilities.ps1';
+		&amp; 'C:\Windows\Setup\Scripts\RemoveCapability.ps1';
 	};
 	{
-		&amp; 'C:\Windows\Setup\Scripts\RemoveFeatures.ps1';
+		&amp; 'C:\Windows\Setup\Scripts\RemoveFeature.ps1';
 	};
 	{
 		net.exe accounts /maxpwage:UNLIMITED;
@@ -518,12 +509,6 @@ $scripts = @(
 	};
 	{
 		&amp; 'C:\Windows\Setup\Scripts\SetStartPins.ps1';
-	};
-	{
-		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard" /v "EnableVirtualizationBasedSecurity" /t REG_DWORD /d 0 /f;
-		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f;
-		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "EnabledBootId" /t REG_DWORD /d 0 /f;
-		  reg.exe add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "WasEnabledBy" /t REG_DWORD /d 0 /f;
 	};
 );
 
