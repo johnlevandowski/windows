@@ -1,16 +1,9 @@
 ﻿Windows Installation
 ====================
 
-* [PC Building Notes](pc_building_notes.md)
-* [BIOS Settings](bios.md)
-* [Windows ISO download](windows_ISO.md)
-* [Ventoy setup](ventoy.md)
-
 Only connect main monitor during install  
 
 Disconnect extra drives (SATA, USB) or windows may install EFI boot loader on wrong drive  
-
-Boot to Windows Installer USB Drive – F7 (Geekom), F11 (ASRock), F12 (Gigabyte)  
 
 Install Windows 11 using autounattend.xml > https://schneegans.de/windows/unattend-generator/  
 
