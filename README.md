@@ -133,6 +133,8 @@ irfanview `
 notepadplusplus.install `
 treesizefree `
 --yes
+
+choco install obsidian --install-arguments='/allusers'
 ```
 
 ### Microsoft Store
@@ -194,23 +196,6 @@ taskkill /f /im explorer.exe & start explorer.exe
 
 ### Bitwarden
 * Settings > Options > Clear clipboard = 5 minutes
-
-### Firefox
-* Add-ons and themes > Bitwarden - Add to Firefox
-* RIght Click Toolbar > Bookmarks Toolbar > Always Show
-* Delete Mozilla Firefox folder from Bookmarks Menu
-* Delete Getting Started bookmark from Bookmarks Toolbar
-* Right Click Import Bookmarks > Remove from Toolbar
-* Settings > Account and sync > Sign in to sync
-* Settings > Home and startup > New windows = Blank Page
-* Settings > Home and startup > New tabs = Blank Page
-* Settings > Privacy & Security > Enable DNS over HTTPS using = OFF
-* Settings > Passwords and autofill > Ask to save passwords = OFF
-* Settings > Passwords and autofill > Save and autofill payment info = OFF
-* Settings > Passwords and autofill > Save and autofill addresses = OFF
-* Settings > Tabs and browsing > Performance > Use recommended performance settings = OFF
-* Settings > Tabs and browsing > Performance > Use hardware acceleration when available = OFF
-* about:config - browser.bookmarks.autoExportHTML = TRUE
 
 ### LibreOffice
 * Tools > Options > LibreOffice > View > Force Skia software rendering (stop using GPU)
